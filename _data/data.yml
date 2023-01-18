@@ -1,0 +1,199 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: James Yang
+    tagline: Data Scientist and Electrical & Computer Engineer
+    avatar: face.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: 98yang.james@gmail.com
+    # phone: 541-231-4978
+    # timezone: America/Cancun Timezone
+    # citizenship:
+    website: 98yangjames.github.io #do not add http://
+    linkedin: jamesyangosu  
+    # xing: alandoe
+    github: 98yangjames
+    # telegram: # add your nickname without '@' sign
+    # gitlab:
+    # bitbucket:
+    # twitter: '@webjeda'
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+    # codewars:
+    # goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: https://drive.google.com/file/d/14PNpZOGLKN4x6f8nvfxfZEVhSWDLLfOl/view?usp=sharing
+
+    languages:
+      title: Languages
+      info:
+        - idiom: English
+          level: Native
+
+        - idiom: Chinese
+          level: Intermediate
+
+
+    interests:
+      title: Interests
+      info:
+        - item: Basketball & Football
+          link:
+
+        - item: Music
+          link:
+
+        - item: Video-making
+          link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      My name is James Yang, a Data Scientist / Electrical & Computer Engineer. I obtained my Masters degree in Data Science at the University of Washington - Seattle where I am currently located as well. Prior to that, I got my undergrad degree at Oregon State University in Electrical & Computer Engineering with a minor in Computer Science. [Resume here!](https://drive.google.com/file/d/14PNpZOGLKN4x6f8nvfxfZEVhSWDLLfOl/view?usp=sharing)
+      
+      Here, you can follow my journey from hardware engineering to software development and now data science! I enjoy learning new things and understanding why they work. 
+      But don't worry, I also like stepping aside from the computer. I play basketball (can dunk on a very very optimistic day), huge Seahawks fan, and love to create music (piano, guitar, etc.)
+      
+      If you want to reach out, please email me or connect on Linkedin!
+education:
+    title: Education
+    info:
+      - degree: MSc in Data Science
+        university: University of Washington
+        time: 2021-2023
+        details: |
+          Coursework: Applied Statistics & Experimental Design, Statistical Machine Learning, Scalable Data Systems and Algs, Probability, Data Visualization
+
+      - degree: BSc in Electrical & Computer Engineering
+        university: Oregon State University
+        time: 2017-2021
+        details: |
+          Coursework: Data Structures, Signal Processing, Databases, Computer Systems, Machine Learning
+          
+          Research: Game-Theoretic XAI Lab, EEG Lab, OPEnS Lab
+
+experiences:
+    title: Experiences
+    info:
+      - role: Data Science Intern
+        time: May 2022 - December 2022
+        company: Intel Corporation, Remote
+        details: |
+            - Developing an automated detection model in Python detecting faulty die within test programs saving 5 hours per program on multiple flagship products.
+            - Developing a CRUD application for human-in-the-loop interaction with repair model in Python using Plotly, Dash, and SQL.
+            - Marketing project to director and VP of org to produce interest and introduce new workflow within org to increase 20% efficiency in data pulling, receiving a full time offer.
+      - role: Software Engineer Intern
+        time: May 2021 - September 2021
+        company: Intel Corporation, Hillsboro
+        details: |
+          
+            - Windows full-stack developer using C# and SQL for Intel proprietary testing software with 1000 weekly users.
+            - Creation of a magnet application that works with Windows Registry HKEY users to allow for magnet call.
+            - Developed utilizing pair programming, unit testing, SCRUM, and git version control.
+            - Ran Test Program integrations and stress tests for unreleased processors on both wafer burn in and array level.
+      - role: Product Development Engineer Intern
+        time: June 2020 - September 2020
+        company: Intel Corporation, Hillsboro
+        details: |
+            - Test program analysis with internal tools. Running integrations, vmin/vmax, and Shmoo analysis on die.
+            - Developed internal test program tool using C# to automate analysis.
+projects:
+    title: Projects
+    intro: >
+      
+    assignments:
+
+      - title: Fantasy Football Machine Learning API
+        link: "https://github.com/TomasMeade/NFLFantasy"
+        tagline: "Currently generating a dashboard for Machine learning statistical analysis for proprietary fantasy leagues."
+
+      - title: Password Analysis
+        link: "https://github.com/98yangjames/Password-Analysis"
+        tagline: "Using Data cleaning and pipelining along with ANOVA to determine whether passwords found from 5 different countries had the same strength complexity or not."
+
+      - title: Stack Overflow API
+        link: "https://github.com/98yangjames/PythonStackOverFlow"
+        tagline: "Python API that retrieves direct error analysis on python run-time errors. API will give a link and a print-out the solution relevant to the error at hand."
+      
+
+      - title: EEG Brain Signal Decoding
+        link: ""
+        tagline: "mplemented a CNN with 3 layers in Python. Using 2 layer max pooling to reduce dimensionality to predict hand-movement from human EEG brain signal multi-channel readings, predicted 74.3% of human hand movement. Sampled EEG measurements from 10 people with headgear; predicted their individual hand movements also using
+LDA and CV with K-Folds along with A/B testing."
+      
+      - title: 2D-Axis Robotic Arm
+        link: "https://www.youtube.com/watch?v=9m1BgfleYVE&t=15s&ab_channel=JamesYang"
+        tagline: "Developing a fully functioning 2D-Axis Robotic Arm utilizing stepper motors, WiFi module, Arduino Uno, 2 Motor Driver ICs, self-developed G-Code interpreter, and 3D printed components to draw lines at an optimal speed. The components are stored on a self-developed PCB. "
+
+
+      
+# oss:
+#     title: OSS Contributions
+#     intro: >
+#       You can list your open source software contributions in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     contributions:
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
+
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python
+        level: 98%
+
+      - name: C++/C#
+        level: 90%
+
+      - name: Plotly/Dash/Pandas
+        level: 90%
+
+      - name: Machine Learning
+        level: 90%
+
+      - name: R
+        level: 80%
+
+      - name: Pytorch/tensorflow
+        level: 70%
+
+# footer: >
+#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
