@@ -7,19 +7,19 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: James Yang
-    tagline: Data Scientist and Electrical & Computer Engineer
-    avatar: face.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Hannah Beaulieu
+    tagline: International Studies Pre-Law School
+    avatar: hannah.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: 98yang.james@gmail.com
+    email: hanngbeau@gmail.com
     # phone: 541-231-4978
     # timezone: America/Cancun Timezone
     # citizenship:
-    website: 98yangjames.github.io #do not add http://
-    linkedin: jamesyangosu  
+    website: hanbeaulieu.github.io #do not add http://
+    linkedin: hannah-beaulieu 
     # xing: alandoe
-    github: 98yangjames
+    # github: 98yangjames
     # telegram: # add your nickname without '@' sign
     # gitlab:
     # bitbucket:
@@ -27,7 +27,7 @@ sidebar:
     # stack-overflow: # Number/Username, e.g. 123456/alandoe
     # codewars:
     # goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: https://drive.google.com/file/d/14PNpZOGLKN4x6f8nvfxfZEVhSWDLLfOl/view?usp=sharing
+    pdf: https://drive.google.com/file/d/1N94aX8WyEsiFHFkTOVn2SgPySGhcdY9a/view?usp=share_link
 
     languages:
       title: Languages
@@ -42,13 +42,13 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Basketball & Football
+        - item: Track & Field, Football
           link:
 
-        - item: Music
+        - item: Photography
           link:
 
-        - item: Video-making
+        - item: Traveling
           link:
 
 career-profile:
